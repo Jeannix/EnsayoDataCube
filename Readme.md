@@ -14,8 +14,8 @@ Alumno:
 
 Es necesario denotar los objetos que se tomaran en cuenta para realizar nuestro datacube.
 
-[data]: data.png "Data"
-![link](https://files.slack.com/files-pri/T01JK3EER9Q-F01LUS6NLQM/image.png "data")
+[image]: image.png "Data"
+![link](https://files.slack.com/files-pri/T01JK3EER9Q-F01LUS6NLQM/image.png "Data")
 
 De esta imagen podremos obtener dimensiones como lspatial1, lspatial2 y el device.
 
