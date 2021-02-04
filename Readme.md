@@ -1,4 +1,4 @@
-# Ensayo DataCube
+# Ensayo DataCube
 
 Alumno:
 
@@ -18,12 +18,16 @@ Es necesario denotar los objetos que se tomaran en cuenta para realizar nuestro 
 
 De esta imagen podremos obtener dimensiones como lspatial1, lspatial2 y el device.
 
-Cada uno de estos comprendiendo los siguientes posibles datos.
+Cada uno de estos comprendiendo los siguientes posibles datos:
 
-lspatial1 = ((0,0);(0,1);(1,0);(1,1)).
+- lspatial1 = ((0,0);(0,1);(1,0);(1,1)).
+  
+- lspatial2 = ((00,00);(00,01);(00,10);(00,11);(01,00);(01,01);(01,10);(01,11);
+   (10,00);(10,01);(10,10);(10,11);(11,00);(11,01);(11,10);(11,11)).
+  
+- Device = (Android, Iphone).
+  
 
-lspatial2 = ((00,00);(00,01);(00,10);(00,11);(01,00);(01,01);(01,10);(01,11);
- (10,00);(10,01);(10,10);(10,11);(11,00);(11,01);(11,10);(11,11)).
-Device = (Android, Iphone).
+Todo esto se puede comprender como datos de latitud y longitud y los puntos de color implicarían las dos opciones de Android o Iphone.
 
-A continuación tomariamos en cuenta una
+A continuación tomariamos en cuenta una "permutación" de todos nuestros posibles datos. Para de esta forma generar nuestro DataCube.
