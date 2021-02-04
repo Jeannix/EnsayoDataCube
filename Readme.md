@@ -14,8 +14,7 @@ Alumno:
 
 Es necesario denotar los objetos que se tomaran en cuenta para realizar nuestro datacube.
 
-[image]: image.png "Data"
-![link](https://files.slack.com/files-pri/T01JK3EER9Q-F01LUS6NLQM/image.png "Data")
+![link](https://github.com/Jeannix/EnsayoDataCube/blob/main/Resources/data.png)
 
 De esta imagen podremos obtener dimensiones como lspatial1, lspatial2 y el device.
 
@@ -31,7 +30,9 @@ Cada uno de estos comprendiendo los siguientes posibles datos:
 
 Todo esto se puede comprender como datos de latitud y longitud y los puntos de color implicarían las dos opciones de Android o Iphone.
 
-Tambien podemos extraer los siguientes objetos tomando en cuenta nuestros datos presentados en [data](data)
+Tambien podemos extraer los siguientes objetos tomando en cuenta nuestros datos presentados en la imagen.
+
+![link](https://github.com/Jeannix/EnsayoDataCube/blob/main/Resources/dataset.png)
 
 A continuación tomariamos en cuenta una "permutación" de todos nuestros posibles datos, para así generar nuestro DataCube.
 
