@@ -7,14 +7,15 @@ Alumno:
 ## Tabla de Contenidos
 
 - [Introducción](#introducción)
-- [Líbrerías Necesarias](#librerías-necesarias)
-- [Resultados](#resultados)
+- [DataCube](#DataCube)
+- [Comparación](#comparación))
 
 ## Introducción
 
 Es necesario denotar los objetos que se tomaran en cuenta para realizar nuestro datacube.
 
-![link](https://github.com/Jeannix/EnsayoDataCube/blob/main/Resources/data.png)
+[data]: data.png "Data"
+![link](https://files.slack.com/files-pri/T01JK3EER9Q-F01LUS6NLQM/image.png "data")
 
 De esta imagen podremos obtener dimensiones como lspatial1, lspatial2 y el device.
 
@@ -30,4 +31,10 @@ Cada uno de estos comprendiendo los siguientes posibles datos:
 
 Todo esto se puede comprender como datos de latitud y longitud y los puntos de color implicarían las dos opciones de Android o Iphone.
 
-A continuación tomariamos en cuenta una "permutación" de todos nuestros posibles datos. Para de esta forma generar nuestro DataCube.
+Tambien podemos extraer los siguientes objetos tomando en cuenta nuestros datos presentados en [data](data)
+
+A continuación tomariamos en cuenta una "permutación" de todos nuestros posibles datos, para así generar nuestro DataCube.
+
+## DataCube
+
+Como fue mencionado en [Introducción](#introducción) se realizara una "permutación" de estos datos y a su vez se añadirá un nuevo dato por cada grupo de opciones, conteniendo ambos devices. Cuyo resultado será la siguiente tabla:
